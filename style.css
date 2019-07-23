@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(flagsbgDarker.png);
+  background-size: contain;
+  background-position: top;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #F1ED7C;
+  background: black;
+  opacity: 0.6;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 20% 20% 0% 0%;
+  padding: 0.4%;
+}
+
+h1 {
+  font-size: 33px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.beta_version {
+  padding: 0.4%;
+  background-position: left center;
+  background: #1A1E52;
+  color: white;
+  font-size: 80%;
+  border-top: 2px solid white;
+}
+
+.wrapper {
+  width: 60%;
+  margin-top: 1.5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid white;
+  background: black;
+  opacity: 0.6;
+  padding: 0.4%;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.words {
+  width: 200px;
+  background: #1A1E52;
+  float: left;
+  margin-right: 3%;
+}
+
+#word_text {
+  margin-top: 10px;
+  font-size: 250%;
+  margin-bottom: 5px;
+  color: #1CD2FF;
+}
+
+#description {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+p#description {
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #0BAEFF;
+}
+
+li#translated {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+h3 {
+  margin: 0;
+}
+
+.iigg {
+  width: 99%;
+  position: top;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+
+
+.tablink {
+  background-color: #AFAFB0;
+  color: white;
+  float: left;
+  border: none;
+  width: 25%;
+  text-align: center;
+  font-size: 100%;
+}
+
+#word_list {
+  max-height: 450px;
+  overflow-y: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+ul#word_list {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  padding-left: 10px;
+  margin-right: 0px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  line-height: 1.1em;
+  transition: 0.3s;
+}
+
+li:hover {
+  color: #01E410;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 120%;
+  opacity: 1;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  padding-top: 6%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  border-left: 2px solid white;
+  margin-top: -2%;
+}
+
+p {
+  margin-top: -2%;
+  margin-bottom: -1%;
+}
+
+/* Style each tab content individually */
+#Deutsch {background-color:#1E1E1E;}
+#English {background-color:#343434;}
+#Français {background-color:#555555;}
+#Português {background-color:#6B6C6C;}
+
+
+.word {
+  margin-top: -1%;
+}
+
+.word.hover {
+  color:  #01E410;
+  cursor: pointer;
+}
+
+h3 {
+  color: #F1ED7C;
+}
+
+::placeholder {
+  color: #D2D2D2;
+  transition: 0.3s;
+}
+
+::placeholder:hover {
+  opacity: 1;
+}
+
+#search {
+  border-left: 2px solid white;
+  width: 90%;
+  padding: 4%;
+  font-size: 18px;
+  transition: 0.3s;
+  text-align: center;
+  color: #1F3EA4;
+}
+
+#search:hover {
+  opacity: 1;
+}
+
+#search:focus {outline: 0;}
+
+button {
+  color: #F1ED7C;
+  background: black;
+  width: 100%;
+  height: 60px;
+  font-size: 25px;
+  font-family: 'Righteous', cursive;
+  transition: 0.3s;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #033BAA;
+  color: white;
+  opacity: 1;
+  font-size: 120%;
+}
+
+button.tablink{
+  padding: 0px;
+  height: 30px;
+}
+
+button:focus {outline:0;}

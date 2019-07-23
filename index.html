@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="utf-8">
+    <title>MarvinsGuezzli</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=0.45, user-scalable=no">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="hochzit.css" rel="stylesheet">
+
+
+</head>
+
+
+  <body>
+
+
+    <div class="header">
+      <h1>Marvins VerbäBüechli</h1>
+        <div class="beta_version">Version 1.3 ; 06-26-19 Development of a test website! *_*</div>
+    </div>
+
+    <div class="wrapper">
+
+
+      <div class="words">
+
+        <img src="iigg.jpg" class="iigg">
+
+
+
+        <div id="Deutsch" class="tabcontent">
+          <p>Hallo Freunde des Computers, ich begrüße euch hiier!
+              Passt auf euch auf und habt Freude am Leben!
+        </div>
+
+        <div id="English" class="tabcontent">
+          <p>Hii friends of the computer, I welcome you guys heere!
+              Take care of yourselves and enjoy your lives!</p>
+        </div>
+
+        <div id="Français" class="tabcontent">
+          <p>Salut les amis de l'ordinateur, je vous souhaite la bienvenue icii!
+              Prenez soin et profitez de la vie!</p>
+        </div>
+
+        <div id="Português" class="tabcontent">
+          <p>Oii amigos do computador, eu vocês saúdam aquii!
+            Tomem cuidam e tenham alegria nas vidas!</p>
+        </div>
+
+        <button class="tablink" style="border-left: 2px solid white; " onclick="openGreating('Deutsch', this, '#1E1E1E')" id="defaultOpen">DE</button>
+        <button class="tablink" onclick="openGreating('English', this, '#343434')">EN</button>
+        <button class="tablink" onclick="openGreating('Français', this, '#555555')">FR</button>
+        <button class="tablink" onclick="openGreating('Português', this, '#6B6C6C')">PT</button>
+
+
+
+
+        <input type="text" id="search" placeholder="Infinitve Verb">
+
+        <button onclick="search()">Suechä!</button>
+
+        <ul id="word_list"></ul>
+
+
+      </div>
+
+      <div class="word">
+        <h3 id="word_text">Wort</h3>
+        <p id="description">/p>
+
+        <hr>
+
+        <h3></h3>
+        <li id="translated"></li>
+
+
+      </div>
+
+    </div>
+
+      </div>
+
+  </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="hochzitCountdown.js"></script>
+    <script type="text/javascript" src=nerv.js"></script>
+
+  </body>
+</html>
